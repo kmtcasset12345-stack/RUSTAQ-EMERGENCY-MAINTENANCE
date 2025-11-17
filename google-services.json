@@ -1,0 +1,9 @@
+git clone <repo>
+cd nama-project
+
+# login
+firebase login
+
+# connect to project (choose project alias)
+firebase use --add
+# follow prompts to map alias (e.g., "dev", "prod") to your Firebase project
