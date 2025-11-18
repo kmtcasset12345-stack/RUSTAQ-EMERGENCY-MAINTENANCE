@@ -15,25 +15,4 @@
   to = "/index.html"
   status = 200
   force = true
-
-# Deploy Template Structure
-# Place these files in your project before deployment:
-
-# Project Root
-/netlify.toml
-/web/
-  index.html
-  main.dart.js
-  flutter.js
-
-# Build Output (after running flutter build web)
-/build/web/
-  index.html
-  main.dart.js
-  flutter.js
-  favicon.png
-  icons/
-  assets/
-  _redirects   # Required for Netlify SPA routing
-
 # _redirects file content (exact format, single spaces):
