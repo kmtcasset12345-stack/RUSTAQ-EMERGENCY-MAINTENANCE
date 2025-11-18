@@ -7,8 +7,6 @@
   to = "/index.html"
   status = 200
 
-/*    /index.html   200
-
 # Deploy Template Structure
 # Place these files in your project before deployment:
 
@@ -24,6 +22,14 @@
   index.html
   main.dart.js
   flutter.js
+  favicon.png
+  icons/
+  assets/
+  _redirects   # Required for Netlify SPA routing
+
+# _redirects file content (exact format, single spaces):
+/* /index.html 200
+
   favicon.png
   icons/
   assets/
